@@ -30,10 +30,25 @@ The design performs distance computation, top-K selection, and classification us
 ## File Structure
 
 knn-hardware-accelerator/
-- src/
-- testbench/
-- data/
-- README.md
+├── src/
+│   ├── knn_processor_top.v
+│   ├── knn_system_l.v
+│   ├── pc.v
+│   ├── decoder.v
+│   ├── instruction_memory.v
+│   ├── distance_engine.v
+│   ├── top_k_selector.v
+│   ├── voting_logic.v
+│   ├── training_data.v
+│   └── latency_counter.v
+│
+├── testbench/
+│   └── tb_knn_system.v
+│
+├── data/
+│   └── query.mem
+│
+└── README.md
 
 ---
 
