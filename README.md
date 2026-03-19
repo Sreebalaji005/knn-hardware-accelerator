@@ -30,10 +30,10 @@ The design performs distance computation, top-K selection, and classification us
 ## File Structure
 
 knn-hardware-accelerator/
-├── src/
-├── testbench/
-├── data/
-└── README.md
+- src/
+- testbench/
+- data/
+- README.md
 
 ---
 
