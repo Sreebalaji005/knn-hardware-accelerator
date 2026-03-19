@@ -41,19 +41,19 @@ knn-hardware-accelerator/
 │   ├── knn_processor_top.v
 │   ├── knn_system_l.v
 │   ├── pc.v
-│   ├── decoder.v
-│   ├── instruction_memory.v
+│   ├── decoder.v  
 │   ├── distance_engine.v
 │   ├── top_k_selector.v
 │   ├── voting_logic.v
-│   ├── training_data.v
 │   └── latency_counter.v
 │
 ├── testbench/
 │   └── tb_knn_system.v
 │
-├── data/
-│   └── query.mem
+├── memory/
+│   ├── query.mem
+│   ├── instruction_memory.v
+│   ├── training_data.v
 │
 └── README.md
 ```
