@@ -71,4 +71,9 @@ knn-hardware-accelerator
 - Machine Learning Acceleration
 - Edge AI Systems
 - FPGA-based AI Inference
+
+---
+## Contributers
+- Sree Balaji P
+- Sriram J
  
